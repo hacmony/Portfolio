@@ -30,3 +30,8 @@ No CSS, adicione:
 `.project-image img { width: 100%; height: 100%; object-fit: cover; display: block; }`
 
 O conteúdo textual foi baseado no PDF do portfólio fornecido.
+
+
+## Comentários no código
+
+O HTML usa `<!-- comentário -->`, o CSS usa `/* comentário */` e o JavaScript usa `// comentário` para indicar o que cada bloco faz.
