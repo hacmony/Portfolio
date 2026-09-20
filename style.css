@@ -291,3 +291,6 @@ footer {
   .project-image, .project-large .project-image, .project-wide .project-image { min-height: 280px; }
   footer { flex-direction: column; }
 }
+
+.imagem-teste img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
