@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> 
+  <!--permite que o navegador interprete corretamente caracteres como: ã / ç / é / á / símbolos etc. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Hacmony A. Santos Jr — produtor e criador visual.">
+   <!-- torna o site responsivo a tablets e celulares -->
+  <meta name="description" content="Portfólio de Hacmony A. Santos Jr — Criador e produtor visual.">
   <title>Hacmony A. Santos Jr. — Portfólio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- prepara antecipadamente a conexão para solicitar informações, faz o comando de baixo ser mais rápido. Basicamente isso. -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- prepara antecipadamente a conexão com o servidor das fontes do texto -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- especifica as fontes usadas -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -85,7 +90,7 @@
 
     <section class="skills section" id="especialidades">
       <div class="section-label">02 / ESPECIALIDADES</div>
-      <div class="skills-grid">
+      <div class="skills-grid">  <!-- Aqui aparentemente faz aquelas "grids de skill", para elencar as skills/habilidades -->
         <article class="skill"><span>01</span><h3>Ilustração & criação visual</h3><p>Ilustração digital, artes independentes e desenvolvimento de identidades visuais.</p></article>
         <article class="skill"><span>02</span><h3>Narrativas & roteiros</h3><p>Produção e revisão de textos, roteiro e desenvolvimento de storytelling.</p></article>
         <article class="skill"><span>03</span><h3>Foto, áudio & vídeo</h3><p>Produção e edição de imagens, vídeo, áudio e conteúdo audiovisual.</p></article>
@@ -100,12 +105,14 @@
         <p>Uma seleção baseada nos projetos apresentados no portfólio</p>
       </div>
 
+
+      
       <div class="project-grid">
         <article class="project project-large">
           <div class="project-image video-container">
             <!-- Vídeo incorporado diretamente do YouTube -->
           <iframe
-            src=https://www.youtube-nocookie.com/embed/Ba01utFI6R0&list
+            src=https://www.youtube-nocookie.com/embed/Ba01utFI6R0&
             title="Animação de pós-produção do Senado Notícias"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -117,8 +124,16 @@
             <h3>INfografia e videografismo</h3>
             <p>Uma das diversas produções de artes feitas para o jornal Senado Notícias da TV Senado</p>
           </div>
+          
+          <input
+  type="button" 
+  value="Trabalhos na TV Senado"
+  onclick="window.location.href='https://www.youtube.com/playlist?list=PLTsvRIQMh8gWYCpx2KkyGv16RmLUCb_eG'"
+> <!-- botão que redireciona ao link -->
+          
         </article>
 
+        
         <article class="project">
           <div class="project-image video-container">
             <!-- Vídeo incorporado diretamente do YouTube -->
@@ -193,12 +208,6 @@
         </article>
       </div>
     </section>
-
-<input
-  type="button" 
-  value="Trabalhos na TV Senado"
-  onclick="window.location.href='https://www.youtube.com/playlist?list=PLTsvRIQMh8gWYCpx2KkyGv16RmLUCb_eG'"
-> <!-- botão que redireciona ao link -->
     
     <section class="contact section" id="contato">
       <div class="section-label">04 / ENTRE EM CONTATO</div>
