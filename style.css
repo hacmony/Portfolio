@@ -297,7 +297,7 @@ footer {
 .imagem-teste img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 
-/* ===Formatação de VÍDEO VERTICAL DA CAREX=== */
+/* === Formatação de VÍDEO VERTICAL DA CAREX === */
 .project-video-vertical {
   grid-row: span 2;
 }
@@ -309,7 +309,7 @@ footer {
   overflow: hidden;
 }
 
-/* Player do YouTube - video da Carex */
+/* Player do YouTube - vídeo da Carex */
 .project-video-vertical .video-container iframe {
   width: 100%;
   height: 100%;
@@ -317,13 +317,22 @@ footer {
   border: none;
 }
 
-/* Vídeo horizontal grande; melhorar a apresentação do video da TV Senado */
+
+/* === VÍDEO HORIZONTAL DA TV SENADO === */
+
+/* Faz o projeto ocupar as duas colunas */
+.project-large {
+  grid-column: span 2;
+}
+
+/* Área que contém o vídeo */
 .project-large .video-container {
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 
+/* Player do YouTube - vídeo da TV Senado */
 .project-large .video-container iframe {
   width: 100%;
   height: 100%;
