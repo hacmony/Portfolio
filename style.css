@@ -299,7 +299,7 @@ footer {
 
 /* === Formatação de VÍDEO VERTICAL DA CAREX === */
 .project-video-vertical {
-  grid-column: span 1
+  grid-column: span 1;
   grid-row: span 2;
 }
 
